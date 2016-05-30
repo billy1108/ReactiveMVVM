@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ReactiveModel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ReactiveView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ReactiveViewModel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +33,36 @@
 			<true/>
 		</dict>
 		<key>DF2564B41CFCEE940025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2564C81CFCEF0C0025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2564D11CFCEF0C0025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2564EB1CFCEF220025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2564F41CFCEF220025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF25650D1CFCEF350025B3F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2565161CFCEF350025B3F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

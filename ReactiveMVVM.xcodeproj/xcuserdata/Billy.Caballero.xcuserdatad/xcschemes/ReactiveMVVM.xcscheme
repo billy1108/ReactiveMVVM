@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2564A01CFCEE940025B3F1"
+               BuildableName = "ReactiveMVVM.app"
+               BlueprintName = "ReactiveMVVM"
+               ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,56 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2564B41CFCEE940025B3F1"
+               BuildableName = "ReactiveMVVMTests.xctest"
+               BlueprintName = "ReactiveMVVMTests"
+               ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2564D11CFCEF0C0025B3F1"
+               BuildableName = "ReactiveModelTests.xctest"
+               BlueprintName = "ReactiveModelTests"
+               ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2564F41CFCEF220025B3F1"
+               BuildableName = "ReactiveViewTests.xctest"
+               BlueprintName = "ReactiveViewTests"
+               ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF2565161CFCEF350025B3F1"
+               BuildableName = "ReactiveViewModelTests.xctest"
+               BlueprintName = "ReactiveViewModelTests"
+               ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DF2564A01CFCEE940025B3F1"
+            BuildableName = "ReactiveMVVM.app"
+            BlueprintName = "ReactiveMVVM"
+            ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +91,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DF2564A01CFCEE940025B3F1"
+            BuildableName = "ReactiveMVVM.app"
+            BlueprintName = "ReactiveMVVM"
+            ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +110,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DF2564A01CFCEE940025B3F1"
+            BuildableName = "ReactiveMVVM.app"
+            BlueprintName = "ReactiveMVVM"
+            ReferencedContainer = "container:ReactiveMVVM.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

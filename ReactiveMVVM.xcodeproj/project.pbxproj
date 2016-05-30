@@ -13,6 +13,62 @@
 		DF2564AC1CFCEE940025B3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2564AB1CFCEE940025B3F1 /* Assets.xcassets */; };
 		DF2564AF1CFCEE940025B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2564AD1CFCEE940025B3F1 /* LaunchScreen.storyboard */; };
 		DF2564BA1CFCEE940025B3F1 /* ReactiveMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2564B91CFCEE940025B3F1 /* ReactiveMVVMTests.swift */; };
+		DF2564CC1CFCEF0C0025B3F1 /* ReactiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2564CB1CFCEF0C0025B3F1 /* ReactiveModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2564D31CFCEF0C0025B3F1 /* ReactiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; };
+		DF2564DA1CFCEF0C0025B3F1 /* ReactiveModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2564D91CFCEF0C0025B3F1 /* ReactiveModelTests.swift */; };
+		DF2564DE1CFCEF0C0025B3F1 /* ReactiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; };
+		DF2564DF1CFCEF0C0025B3F1 /* ReactiveModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF2564F61CFCEF220025B3F1 /* ReactiveView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */; };
+		DF2564FD1CFCEF220025B3F1 /* ReactiveViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2564FC1CFCEF220025B3F1 /* ReactiveViewTests.swift */; };
+		DF2565011CFCEF220025B3F1 /* ReactiveView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */; };
+		DF2565021CFCEF220025B3F1 /* ReactiveView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF2565181CFCEF350025B3F1 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; };
+		DF25651F1CFCEF350025B3F1 /* ReactiveViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25651E1CFCEF350025B3F1 /* ReactiveViewModelTests.swift */; };
+		DF2565231CFCEF350025B3F1 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; };
+		DF2565241CFCEF350025B3F1 /* ReactiveViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF25652E1CFCEFA20025B3F1 /* ReactiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; };
+		DF25652F1CFCEFAA0025B3F1 /* ReactiveViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2565101CFCEF350025B3F1 /* ReactiveViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2565321CFCEFC00025B3F1 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; };
+		DF2565331CFCEFD50025B3F1 /* ReactiveView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2564EE1CFCEF220025B3F1 /* ReactiveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2565341CFCF0530025B3F1 /* ReactiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; };
+		DF2565351CFCF0610025B3F1 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; };
+		DF2565361CFCF0780025B3F1 /* ReactiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */; };
+		DF2565371CFCF0780025B3F1 /* ReactiveView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */; };
+		DF2565381CFCF0780025B3F1 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */; };
+		DF88E7911CFCFD440092CCC3 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DF88E7921CFCFD4B0092CCC3 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DF88E7931CFCFD4F0092CCC3 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28391CFCFA59008B310D /* Nimble.framework */; };
+		DF88E7941CFCFD530092CCC3 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28381CFCFA59008B310D /* Quick.framework */; };
+		DF88E7951CFCFD6A0092CCC3 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DF88E7961CFCFD700092CCC3 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DF88E7971CFCFD740092CCC3 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28391CFCFA59008B310D /* Nimble.framework */; };
+		DF88E7981CFCFD790092CCC3 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28381CFCFA59008B310D /* Quick.framework */; };
+		DF88E7991CFCFD8C0092CCC3 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28371CFCFA59008B310D /* Swinject.framework */; };
+		DF88E79A1CFCFD910092CCC3 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28391CFCFA59008B310D /* Nimble.framework */; };
+		DF88E79B1CFCFD970092CCC3 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28381CFCFA59008B310D /* Quick.framework */; };
+		DF88E7A61CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DF88E79F1CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM */; };
+		DF88E7A71CFCFF2C0092CCC3 /* Swinject.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DF88E7A01CFCFF2C0092CCC3 /* Swinject.framework.dSYM */; };
+		DF88E7A81CFCFF2C0092CCC3 /* Result.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DF88E7A11CFCFF2C0092CCC3 /* Result.framework.dSYM */; };
+		DF88E7AA1CFCFF2C0092CCC3 /* Nimble.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DF88E7A31CFCFF2C0092CCC3 /* Nimble.framework.dSYM */; };
+		DF88E7AC1CFCFF2C0092CCC3 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = DF88E7A51CFCFF2C0092CCC3 /* Alamofire.framework.dSYM */; };
+		DF88E7AD1CFCFF690092CCC3 /* ReactiveCocoa.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF88E79F1CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM */; };
+		DF88E7AE1CFCFF6B0092CCC3 /* Swinject.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF88E7A01CFCFF2C0092CCC3 /* Swinject.framework.dSYM */; };
+		DF88E7AF1CFCFF6D0092CCC3 /* Result.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF88E7A11CFCFF2C0092CCC3 /* Result.framework.dSYM */; };
+		DF88E7B01CFCFF6F0092CCC3 /* Nimble.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF88E7A31CFCFF2C0092CCC3 /* Nimble.framework.dSYM */; };
+		DF88E7B11CFCFF720092CCC3 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF88E7A51CFCFF2C0092CCC3 /* Alamofire.framework.dSYM */; };
+		DFDB283C1CFCFA59008B310D /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DFDB283D1CFCFA5A008B310D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DFDB28411CFCFA5A008B310D /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB283A1CFCFA59008B310D /* Himotoki.framework */; };
+		DFDB28421CFCFA5A008B310D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB283B1CFCFA59008B310D /* Alamofire.framework */; };
+		DFDB28431CFCFB0B008B310D /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DFDB28441CFCFB17008B310D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DFDB28451CFCFB25008B310D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DFDB28461CFCFB29008B310D /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DFDB28471CFCFB3A008B310D /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28371CFCFA59008B310D /* Swinject.framework */; };
+		DFDB28481CFCFB4C008B310D /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */; };
+		DFDB28491CFCFB54008B310D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28361CFCFA59008B310D /* Result.framework */; };
+		DFDB284A1CFCFB5A008B310D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28391CFCFA59008B310D /* Nimble.framework */; };
+		DFDB284B1CFCFB5D008B310D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB28381CFCFA59008B310D /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +79,93 @@
 			remoteGlobalIDString = DF2564A01CFCEE940025B3F1;
 			remoteInfo = ReactiveMVVM;
 		};
+		DF2564D41CFCEF0C0025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2564C81CFCEF0C0025B3F1;
+			remoteInfo = ReactiveModel;
+		};
+		DF2564DC1CFCEF0C0025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2564C81CFCEF0C0025B3F1;
+			remoteInfo = ReactiveModel;
+		};
+		DF2564F71CFCEF220025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2564EB1CFCEF220025B3F1;
+			remoteInfo = ReactiveView;
+		};
+		DF2564FF1CFCEF220025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2564EB1CFCEF220025B3F1;
+			remoteInfo = ReactiveView;
+		};
+		DF2565191CFCEF350025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF25650D1CFCEF350025B3F1;
+			remoteInfo = ReactiveViewModel;
+		};
+		DF2565211CFCEF350025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF25650D1CFCEF350025B3F1;
+			remoteInfo = ReactiveViewModel;
+		};
+		DF25652C1CFCEF960025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2564C81CFCEF0C0025B3F1;
+			remoteInfo = ReactiveModel;
+		};
+		DF2565301CFCEFBB0025B3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2564991CFCEE940025B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF25650D1CFCEF350025B3F1;
+			remoteInfo = ReactiveViewModel;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF2564E31CFCEF0C0025B3F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF2565021CFCEF220025B3F1 /* ReactiveView.framework in Embed Frameworks */,
+				DF2564DF1CFCEF0C0025B3F1 /* ReactiveModel.framework in Embed Frameworks */,
+				DF2565241CFCEF350025B3F1 /* ReactiveViewModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF88E79D1CFCFEC40092CCC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				DF88E7AD1CFCFF690092CCC3 /* ReactiveCocoa.framework.dSYM in CopyFiles */,
+				DF88E7AE1CFCFF6B0092CCC3 /* Swinject.framework.dSYM in CopyFiles */,
+				DF88E7AF1CFCFF6D0092CCC3 /* Result.framework.dSYM in CopyFiles */,
+				DF88E7B01CFCFF6F0092CCC3 /* Nimble.framework.dSYM in CopyFiles */,
+				DF88E7B11CFCFF720092CCC3 /* Alamofire.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DF2564A11CFCEE940025B3F1 /* ReactiveMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +178,36 @@
 		DF2564B51CFCEE940025B3F1 /* ReactiveMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2564B91CFCEE940025B3F1 /* ReactiveMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveMVVMTests.swift; sourceTree = "<group>"; };
 		DF2564BB1CFCEE940025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2564CB1CFCEF0C0025B3F1 /* ReactiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveModel.h; sourceTree = "<group>"; };
+		DF2564CD1CFCEF0C0025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2564D21CFCEF0C0025B3F1 /* ReactiveModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2564D91CFCEF0C0025B3F1 /* ReactiveModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveModelTests.swift; sourceTree = "<group>"; };
+		DF2564DB1CFCEF0C0025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2564EE1CFCEF220025B3F1 /* ReactiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveView.h; sourceTree = "<group>"; };
+		DF2564F01CFCEF220025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2564F51CFCEF220025B3F1 /* ReactiveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2564FC1CFCEF220025B3F1 /* ReactiveViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveViewTests.swift; sourceTree = "<group>"; };
+		DF2564FE1CFCEF220025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2565101CFCEF350025B3F1 /* ReactiveViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveViewModel.h; sourceTree = "<group>"; };
+		DF2565121CFCEF350025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2565171CFCEF350025B3F1 /* ReactiveViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF25651E1CFCEF350025B3F1 /* ReactiveViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveViewModelTests.swift; sourceTree = "<group>"; };
+		DF2565201CFCEF350025B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF88E79F1CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
+		DF88E7A01CFCFF2C0092CCC3 /* Swinject.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Swinject.framework.dSYM; path = Carthage/Build/iOS/Swinject.framework.dSYM; sourceTree = "<group>"; };
+		DF88E7A11CFCFF2C0092CCC3 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
+		DF88E7A31CFCFF2C0092CCC3 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble.framework.dSYM; path = Carthage/Build/iOS/Nimble.framework.dSYM; sourceTree = "<group>"; };
+		DF88E7A51CFCFF2C0092CCC3 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		DFDB28361CFCFA59008B310D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		DFDB28371CFCFA59008B310D /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		DFDB28381CFCFA59008B310D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		DFDB28391CFCFA59008B310D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		DFDB283A1CFCFA59008B310D /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		DFDB283B1CFCFA59008B310D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +215,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2565011CFCEF220025B3F1 /* ReactiveView.framework in Frameworks */,
+				DFDB28471CFCFB3A008B310D /* Swinject.framework in Frameworks */,
+				DF2564DE1CFCEF0C0025B3F1 /* ReactiveModel.framework in Frameworks */,
+				DF2565231CFCEF350025B3F1 /* ReactiveViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +226,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF88E79A1CFCFD910092CCC3 /* Nimble.framework in Frameworks */,
+				DF2565361CFCF0780025B3F1 /* ReactiveModel.framework in Frameworks */,
+				DF88E79B1CFCFD970092CCC3 /* Quick.framework in Frameworks */,
+				DF88E7991CFCFD8C0092CCC3 /* Swinject.framework in Frameworks */,
+				DF2565371CFCF0780025B3F1 /* ReactiveView.framework in Frameworks */,
+				DF2565381CFCF0780025B3F1 /* ReactiveViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564C51CFCEF0C0025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDB28411CFCFA5A008B310D /* Himotoki.framework in Frameworks */,
+				DFDB28421CFCFA5A008B310D /* Alamofire.framework in Frameworks */,
+				DFDB283C1CFCFA59008B310D /* ReactiveCocoa.framework in Frameworks */,
+				DFDB283D1CFCFA5A008B310D /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564CF1CFCEF0C0025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDB28491CFCFB54008B310D /* Result.framework in Frameworks */,
+				DF2564D31CFCEF0C0025B3F1 /* ReactiveModel.framework in Frameworks */,
+				DFDB28481CFCFB4C008B310D /* ReactiveCocoa.framework in Frameworks */,
+				DFDB284B1CFCFB5D008B310D /* Quick.framework in Frameworks */,
+				DFDB284A1CFCFB5A008B310D /* Nimble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564E81CFCEF220025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2565321CFCEFC00025B3F1 /* ReactiveViewModel.framework in Frameworks */,
+				DFDB28461CFCFB29008B310D /* ReactiveCocoa.framework in Frameworks */,
+				DFDB28451CFCFB25008B310D /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564F21CFCEF220025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF88E7971CFCFD740092CCC3 /* Nimble.framework in Frameworks */,
+				DF2565351CFCF0610025B3F1 /* ReactiveViewModel.framework in Frameworks */,
+				DF88E7981CFCFD790092CCC3 /* Quick.framework in Frameworks */,
+				DF88E7951CFCFD6A0092CCC3 /* ReactiveCocoa.framework in Frameworks */,
+				DF2564F61CFCEF220025B3F1 /* ReactiveView.framework in Frameworks */,
+				DF88E7961CFCFD700092CCC3 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF25650A1CFCEF350025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDB28441CFCFB17008B310D /* Result.framework in Frameworks */,
+				DF25652E1CFCEFA20025B3F1 /* ReactiveModel.framework in Frameworks */,
+				DFDB28431CFCFB0B008B310D /* ReactiveCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2565141CFCEF350025B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF88E7931CFCFD4F0092CCC3 /* Nimble.framework in Frameworks */,
+				DF2565341CFCF0530025B3F1 /* ReactiveModel.framework in Frameworks */,
+				DF88E7941CFCFD530092CCC3 /* Quick.framework in Frameworks */,
+				DF88E7911CFCFD440092CCC3 /* ReactiveCocoa.framework in Frameworks */,
+				DF2565181CFCEF350025B3F1 /* ReactiveViewModel.framework in Frameworks */,
+				DF88E7921CFCFD4B0092CCC3 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +310,13 @@
 		DF2564981CFCEE940025B3F1 = {
 			isa = PBXGroup;
 			children = (
+				DF2564CA1CFCEF0C0025B3F1 /* ReactiveModel */,
+				DF2564ED1CFCEF220025B3F1 /* ReactiveView */,
+				DF25650F1CFCEF350025B3F1 /* ReactiveViewModel */,
 				DF2564A31CFCEE940025B3F1 /* ReactiveMVVM */,
-				DF2564B81CFCEE940025B3F1 /* ReactiveMVVMTests */,
+				DFDB28341CFCFA2E008B310D /* Frameworks */,
+				DF88E79E1CFCFF0B0092CCC3 /* dSYMs */,
+				DF25652B1CFCEF3C0025B3F1 /* Tests */,
 				DF2564A21CFCEE940025B3F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +326,12 @@
 			children = (
 				DF2564A11CFCEE940025B3F1 /* ReactiveMVVM.app */,
 				DF2564B51CFCEE940025B3F1 /* ReactiveMVVMTests.xctest */,
+				DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */,
+				DF2564D21CFCEF0C0025B3F1 /* ReactiveModelTests.xctest */,
+				DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */,
+				DF2564F51CFCEF220025B3F1 /* ReactiveViewTests.xctest */,
+				DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */,
+				DF2565171CFCEF350025B3F1 /* ReactiveViewModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +358,125 @@
 			path = ReactiveMVVMTests;
 			sourceTree = "<group>";
 		};
+		DF2564CA1CFCEF0C0025B3F1 /* ReactiveModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF2564CB1CFCEF0C0025B3F1 /* ReactiveModel.h */,
+				DF2564CD1CFCEF0C0025B3F1 /* Info.plist */,
+			);
+			path = ReactiveModel;
+			sourceTree = "<group>";
+		};
+		DF2564D81CFCEF0C0025B3F1 /* ReactiveModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2564D91CFCEF0C0025B3F1 /* ReactiveModelTests.swift */,
+				DF2564DB1CFCEF0C0025B3F1 /* Info.plist */,
+			);
+			path = ReactiveModelTests;
+			sourceTree = "<group>";
+		};
+		DF2564ED1CFCEF220025B3F1 /* ReactiveView */ = {
+			isa = PBXGroup;
+			children = (
+				DF2564EE1CFCEF220025B3F1 /* ReactiveView.h */,
+				DF2564F01CFCEF220025B3F1 /* Info.plist */,
+			);
+			path = ReactiveView;
+			sourceTree = "<group>";
+		};
+		DF2564FB1CFCEF220025B3F1 /* ReactiveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2564FC1CFCEF220025B3F1 /* ReactiveViewTests.swift */,
+				DF2564FE1CFCEF220025B3F1 /* Info.plist */,
+			);
+			path = ReactiveViewTests;
+			sourceTree = "<group>";
+		};
+		DF25650F1CFCEF350025B3F1 /* ReactiveViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF2565101CFCEF350025B3F1 /* ReactiveViewModel.h */,
+				DF2565121CFCEF350025B3F1 /* Info.plist */,
+			);
+			path = ReactiveViewModel;
+			sourceTree = "<group>";
+		};
+		DF25651D1CFCEF350025B3F1 /* ReactiveViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF25651E1CFCEF350025B3F1 /* ReactiveViewModelTests.swift */,
+				DF2565201CFCEF350025B3F1 /* Info.plist */,
+			);
+			path = ReactiveViewModelTests;
+			sourceTree = "<group>";
+		};
+		DF25652B1CFCEF3C0025B3F1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2564B81CFCEE940025B3F1 /* ReactiveMVVMTests */,
+				DF2564D81CFCEF0C0025B3F1 /* ReactiveModelTests */,
+				DF2564FB1CFCEF220025B3F1 /* ReactiveViewTests */,
+				DF25651D1CFCEF350025B3F1 /* ReactiveViewModelTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		DF88E79E1CFCFF0B0092CCC3 /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				DF88E79F1CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM */,
+				DF88E7A01CFCFF2C0092CCC3 /* Swinject.framework.dSYM */,
+				DF88E7A11CFCFF2C0092CCC3 /* Result.framework.dSYM */,
+				DF88E7A31CFCFF2C0092CCC3 /* Nimble.framework.dSYM */,
+				DF88E7A51CFCFF2C0092CCC3 /* Alamofire.framework.dSYM */,
+			);
+			name = dSYMs;
+			sourceTree = "<group>";
+		};
+		DFDB28341CFCFA2E008B310D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDB28351CFCFA59008B310D /* ReactiveCocoa.framework */,
+				DFDB28361CFCFA59008B310D /* Result.framework */,
+				DFDB28371CFCFA59008B310D /* Swinject.framework */,
+				DFDB28381CFCFA59008B310D /* Quick.framework */,
+				DFDB28391CFCFA59008B310D /* Nimble.framework */,
+				DFDB283A1CFCFA59008B310D /* Himotoki.framework */,
+				DFDB283B1CFCFA59008B310D /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF2564C61CFCEF0C0025B3F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2564CC1CFCEF0C0025B3F1 /* ReactiveModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564E91CFCEF220025B3F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2565331CFCEFD50025B3F1 /* ReactiveView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF25650B1CFCEF350025B3F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF25652F1CFCEFAA0025B3F1 /* ReactiveViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DF2564A01CFCEE940025B3F1 /* ReactiveMVVM */ = {
@@ -106,10 +486,16 @@
 				DF25649D1CFCEE940025B3F1 /* Sources */,
 				DF25649E1CFCEE940025B3F1 /* Frameworks */,
 				DF25649F1CFCEE940025B3F1 /* Resources */,
+				DF2564E31CFCEF0C0025B3F1 /* Embed Frameworks */,
+				DF88E79D1CFCFEC40092CCC3 /* CopyFiles */,
+				DF88E7B21CFD020E0092CCC3 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF2564DD1CFCEF0C0025B3F1 /* PBXTargetDependency */,
+				DF2565001CFCEF220025B3F1 /* PBXTargetDependency */,
+				DF2565221CFCEF350025B3F1 /* PBXTargetDependency */,
 			);
 			name = ReactiveMVVM;
 			productName = ReactiveMVVM;
@@ -134,6 +520,116 @@
 			productReference = DF2564B51CFCEE940025B3F1 /* ReactiveMVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DF2564C81CFCEF0C0025B3F1 /* ReactiveModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2564E01CFCEF0C0025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveModel" */;
+			buildPhases = (
+				DF2564C41CFCEF0C0025B3F1 /* Sources */,
+				DF2564C51CFCEF0C0025B3F1 /* Frameworks */,
+				DF2564C61CFCEF0C0025B3F1 /* Headers */,
+				DF2564C71CFCEF0C0025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveModel;
+			productName = ReactiveModel;
+			productReference = DF2564C91CFCEF0C0025B3F1 /* ReactiveModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2564D11CFCEF0C0025B3F1 /* ReactiveModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2564E41CFCEF0C0025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveModelTests" */;
+			buildPhases = (
+				DF2564CE1CFCEF0C0025B3F1 /* Sources */,
+				DF2564CF1CFCEF0C0025B3F1 /* Frameworks */,
+				DF2564D01CFCEF0C0025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2564D51CFCEF0C0025B3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveModelTests;
+			productName = ReactiveModelTests;
+			productReference = DF2564D21CFCEF0C0025B3F1 /* ReactiveModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF2564EB1CFCEF220025B3F1 /* ReactiveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2565031CFCEF220025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveView" */;
+			buildPhases = (
+				DF2564E71CFCEF220025B3F1 /* Sources */,
+				DF2564E81CFCEF220025B3F1 /* Frameworks */,
+				DF2564E91CFCEF220025B3F1 /* Headers */,
+				DF2564EA1CFCEF220025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2565311CFCEFBB0025B3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveView;
+			productName = ReactiveView;
+			productReference = DF2564EC1CFCEF220025B3F1 /* ReactiveView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2564F41CFCEF220025B3F1 /* ReactiveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2565061CFCEF230025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewTests" */;
+			buildPhases = (
+				DF2564F11CFCEF220025B3F1 /* Sources */,
+				DF2564F21CFCEF220025B3F1 /* Frameworks */,
+				DF2564F31CFCEF220025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2564F81CFCEF220025B3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveViewTests;
+			productName = ReactiveViewTests;
+			productReference = DF2564F51CFCEF220025B3F1 /* ReactiveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF25650D1CFCEF350025B3F1 /* ReactiveViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2565251CFCEF350025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewModel" */;
+			buildPhases = (
+				DF2565091CFCEF350025B3F1 /* Sources */,
+				DF25650A1CFCEF350025B3F1 /* Frameworks */,
+				DF25650B1CFCEF350025B3F1 /* Headers */,
+				DF25650C1CFCEF350025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF25652D1CFCEF960025B3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveViewModel;
+			productName = ReactiveViewModel;
+			productReference = DF25650E1CFCEF350025B3F1 /* ReactiveViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2565161CFCEF350025B3F1 /* ReactiveViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2565281CFCEF350025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTests" */;
+			buildPhases = (
+				DF2565131CFCEF350025B3F1 /* Sources */,
+				DF2565141CFCEF350025B3F1 /* Frameworks */,
+				DF2565151CFCEF350025B3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF25651A1CFCEF350025B3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveViewModelTests;
+			productName = ReactiveViewModelTests;
+			productReference = DF2565171CFCEF350025B3F1 /* ReactiveViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +644,27 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					DF2564B41CFCEE940025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DF2564A01CFCEE940025B3F1;
+					};
+					DF2564C81CFCEF0C0025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DF2564D11CFCEF0C0025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DF2564A01CFCEE940025B3F1;
+					};
+					DF2564EB1CFCEF220025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DF2564F41CFCEF220025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DF2564A01CFCEE940025B3F1;
+					};
+					DF25650D1CFCEF350025B3F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DF2565161CFCEF350025B3F1 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = DF2564A01CFCEE940025B3F1;
 					};
@@ -166,7 +683,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DF2564C81CFCEF0C0025B3F1 /* ReactiveModel */,
+				DF2564EB1CFCEF220025B3F1 /* ReactiveView */,
+				DF25650D1CFCEF350025B3F1 /* ReactiveViewModel */,
 				DF2564A01CFCEE940025B3F1 /* ReactiveMVVM */,
+				DF2564D11CFCEF0C0025B3F1 /* ReactiveModelTests */,
+				DF2564F41CFCEF220025B3F1 /* ReactiveViewTests */,
+				DF2565161CFCEF350025B3F1 /* ReactiveViewModelTests */,
 				DF2564B41CFCEE940025B3F1 /* ReactiveMVVMTests */,
 			);
 		};
@@ -190,7 +713,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF2564C71CFCEF0C0025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF88E7AC1CFCFF2C0092CCC3 /* Alamofire.framework.dSYM in Resources */,
+				DF88E7A61CFCFF2C0092CCC3 /* ReactiveCocoa.framework.dSYM in Resources */,
+				DF88E7A81CFCFF2C0092CCC3 /* Result.framework.dSYM in Resources */,
+				DF88E7A71CFCFF2C0092CCC3 /* Swinject.framework.dSYM in Resources */,
+				DF88E7AA1CFCFF2C0092CCC3 /* Nimble.framework.dSYM in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564D01CFCEF0C0025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564EA1CFCEF220025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564F31CFCEF220025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF25650C1CFCEF350025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2565151CFCEF350025B3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF88E7B21CFD020E0092CCC3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF25649D1CFCEE940025B3F1 /* Sources */ = {
@@ -210,6 +801,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF2564C41CFCEF0C0025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564CE1CFCEF0C0025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2564DA1CFCEF0C0025B3F1 /* ReactiveModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564E71CFCEF220025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2564F11CFCEF220025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2564FD1CFCEF220025B3F1 /* ReactiveViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2565091CFCEF350025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2565131CFCEF350025B3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF25651F1CFCEF350025B3F1 /* ReactiveViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +853,46 @@
 			isa = PBXTargetDependency;
 			target = DF2564A01CFCEE940025B3F1 /* ReactiveMVVM */;
 			targetProxy = DF2564B61CFCEE940025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2564D51CFCEF0C0025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2564C81CFCEF0C0025B3F1 /* ReactiveModel */;
+			targetProxy = DF2564D41CFCEF0C0025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2564DD1CFCEF0C0025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2564C81CFCEF0C0025B3F1 /* ReactiveModel */;
+			targetProxy = DF2564DC1CFCEF0C0025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2564F81CFCEF220025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2564EB1CFCEF220025B3F1 /* ReactiveView */;
+			targetProxy = DF2564F71CFCEF220025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2565001CFCEF220025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2564EB1CFCEF220025B3F1 /* ReactiveView */;
+			targetProxy = DF2564FF1CFCEF220025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF25651A1CFCEF350025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF25650D1CFCEF350025B3F1 /* ReactiveViewModel */;
+			targetProxy = DF2565191CFCEF350025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2565221CFCEF350025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF25650D1CFCEF350025B3F1 /* ReactiveViewModel */;
+			targetProxy = DF2565211CFCEF350025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF25652D1CFCEF960025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2564C81CFCEF0C0025B3F1 /* ReactiveModel */;
+			targetProxy = DF25652C1CFCEF960025B3F1 /* PBXContainerItemProxy */;
+		};
+		DF2565311CFCEFBB0025B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF25650D1CFCEF350025B3F1 /* ReactiveViewModel */;
+			targetProxy = DF2565301CFCEFBB0025B3F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -327,6 +1003,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveMVVM;
@@ -338,6 +1018,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveMVVM;
@@ -349,6 +1033,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveMVVMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveMVVMTests;
@@ -361,9 +1049,247 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveMVVMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Release;
+		};
+		DF2564E11CFCEF0C0025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF2564E21CFCEF0C0025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF2564E51CFCEF0C0025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Debug;
+		};
+		DF2564E61CFCEF0C0025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Release;
+		};
+		DF2565041CFCEF220025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF2565051CFCEF220025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF2565071CFCEF230025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Debug;
+		};
+		DF2565081CFCEF230025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Release;
+		};
+		DF2565261CFCEF350025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF2565271CFCEF350025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF2565291CFCEF350025B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
+			};
+			name = Debug;
+		};
+		DF25652A1CFCEF350025B3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.billcode.ReactiveViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveMVVM.app/ReactiveMVVM";
 			};
@@ -388,6 +1314,7 @@
 				DF2564C01CFCEE940025B3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2564C11CFCEE940025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveMVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +1323,61 @@
 				DF2564C31CFCEE940025B3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2564E01CFCEF0C0025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2564E11CFCEF0C0025B3F1 /* Debug */,
+				DF2564E21CFCEF0C0025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2564E41CFCEF0C0025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2564E51CFCEF0C0025B3F1 /* Debug */,
+				DF2564E61CFCEF0C0025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2565031CFCEF220025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2565041CFCEF220025B3F1 /* Debug */,
+				DF2565051CFCEF220025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2565061CFCEF230025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2565071CFCEF230025B3F1 /* Debug */,
+				DF2565081CFCEF230025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2565251CFCEF350025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2565261CFCEF350025B3F1 /* Debug */,
+				DF2565271CFCEF350025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2565281CFCEF350025B3F1 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2565291CFCEF350025B3F1 /* Debug */,
+				DF25652A1CFCEF350025B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
